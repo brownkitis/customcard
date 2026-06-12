@@ -1,31 +1,143 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Custom Card Catalog</title>
+<title>Custom Card Catalog</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f5f5f5;
+}
+
+header{
+    background:white;
+    padding:20px;
+    border-bottom:1px solid #ddd;
+}
+
+nav{
+    margin-top:10px;
+}
+
+.hero{
+    background:white;
+    margin:20px;
+    padding:40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.hero-image{
+    width:250px;
+    height:300px;
+    background:#ddd;
+}
+
+.catalog{
+    display:flex;
+    margin:20px;
+    gap:20px;
+}
+
+.sidebar{
+    width:250px;
+    background:white;
+    padding:20px;
+}
+
+.content{
+    flex:1;
+    background:white;
+    padding:20px;
+}
+
+.search{
+    width:100%;
+    padding:10px;
+    margin-bottom:20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:15px;
+}
+
+.card{
+    height:200px;
+    background:#ddd;
+}
+
+footer{
+    background:white;
+    padding:20px;
+    text-align:center;
+    margin-top:20px;
+}
+</style>
 </head>
+
 <body>
 
-<h1>Custom Card Catalog</h1>
+<header>
+    <h1>Custom Card Catalog</h1>
+    <nav>
+        Product | Contact
+    </nav>
+</header>
 
-<p>Welcome to my custom card collection!</p>
+<section class="hero">
+    <div>
+        <h2>Custom Card Collection</h2>
+        <p>Fan-made custom card project.</p>
+    </div>
 
-<hr>
+    <div class="hero-image"></div>
+</section>
 
-<h2>Available Categories</h2>
+<section class="catalog">
 
-<ul>
-<li>Promotion Japan</li>
-<li>Promotion Taiwan</li>
-<li>UR Japan</li>
-<li>Mascot Chibi</li>
-<li>Miracle AK+</li>
-</ul>
+    <div class="sidebar">
+        <h3>Filters</h3>
 
-<hr>
+        <p><b>Card Type</b></p>
+        <p>Animal</p>
+        <p>Strong</p>
+        <p>Miracle</p>
+        <p>Promotion</p>
 
-<p>
-This is a fanmade custom card project and is not affiliated with any official card manufacturer.
-</p>
+        <p><b>Compatibility</b></p>
+        <p>AK</p>
+        <p>AK+</p>
+    </div>
+
+    <div class="content">
+
+        <input class="search" placeholder="Search cards...">
+
+        <div class="cards">
+
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    Fan-made custom card project.
+</footer>
 
 </body>
 </html>
