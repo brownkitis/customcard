@@ -27,12 +27,14 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    border-radius:15px;
 }
 
 .hero-image{
     width:250px;
     height:300px;
     background:#ddd;
+    border-radius:15px;
 }
 
 .catalog{
@@ -45,36 +47,49 @@ nav{
     width:250px;
     background:white;
     padding:20px;
+    border-radius:15px;
 }
 
 .content{
     flex:1;
     background:white;
     padding:20px;
+    border-radius:15px;
 }
 
 .search{
     width:100%;
-    padding:10px;
+    padding:12px;
     margin-bottom:20px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    box-sizing:border-box;
 }
 
 .cards{
     display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:15px;
+    grid-template-columns:repeat(auto-fill,minmax(180px,1fr));
+    gap:20px;
 }
 
 .card{
-    height:200px;
+    aspect-ratio:3/4;
     background:#ddd;
+    border-radius:15px;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+.card:hover{
+    transform:translateY(-4px);
 }
 
 footer{
     background:white;
     padding:20px;
     text-align:center;
-    margin-top:20px;
+    margin:20px;
+    border-radius:15px;
 }
 </style>
 </head>
@@ -83,39 +98,54 @@ footer{
 
 <header>
     <h1>Custom Card Catalog</h1>
+
     <nav>
         Product | Contact
     </nav>
 </header>
 
 <section class="hero">
+
     <div>
         <h2>Custom Card Collection</h2>
-        <p>Fan-made custom card project.</p>
+
+        <p>
+        Fan-made custom card project.
+        Browse all available cards here.
+        </p>
     </div>
 
     <div class="hero-image"></div>
+
 </section>
 
 <section class="catalog">
 
     <div class="sidebar">
+
         <h3>Filters</h3>
 
         <p><b>Card Type</b></p>
+
         <p>Animal</p>
         <p>Strong</p>
         <p>Miracle</p>
         <p>Promotion</p>
 
+        <br>
+
         <p><b>Compatibility</b></p>
+
         <p>AK</p>
         <p>AK+</p>
+
     </div>
 
     <div class="content">
 
-        <input class="search" placeholder="Search cards...">
+        <input
+        class="search"
+        placeholder="Search cards...">
 
         <div class="cards">
 
@@ -136,7 +166,7 @@ footer{
 </section>
 
 <footer>
-    Fan-made custom card project.
+    This is a fanmade custom card project.
 </footer>
 
 </body>
