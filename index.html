@@ -73,20 +73,31 @@ nav{
 }
 
 .card{
-    aspect-ratio:3/4;
-    background:#ddd;
+    background:white;
     border-radius:15px;
     cursor:pointer;
     transition:0.2s;
+    padding:12px;
+    box-sizing:border-box;
 }
 
-.card img{
+.card-image{
+    aspect-ratio:4/5;
+}
+
+.card-image img{
     width:100%;
     height:100%;
     object-fit:contain;
     border-radius:10px;
 }
-    
+
+.card-name{
+    margin-top:10px;
+    text-align:center;
+    font-weight:bold;
+}
+
 .card:hover{
     transform:translateY(-4px);
 }
