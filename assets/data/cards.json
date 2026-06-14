@@ -1,34 +1,82 @@
 [
 {
-"name": "001. lion",
+"name": "A001. Lion",
 "type": "Animal, Chibi",
+"rarity": "Common",
+"language": "Eng",
 "compatibility": "AK, AK+",
 "stock": "Available",
-"image": "lion.webp",
+"image": "a001-lion.webp",
 "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
 },
 {
-"name": "002. Great White Shark",
+"name": "A002. Great White Shark",
 "type": "Animal, Chibi",
+"rarity": "Common",
+"language": "Eng",
 "compatibility": "AK, AK+",
 "stock": "Available",
-"image": "gws.webp",
+"image": "a002-gws.webp",
 "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
 },
 {
-"name": "003. Bald Eagle",
+"name": "A003. Bald Eagle",
 "type": "Animal, Chibi",
+"rarity": "Common",
+"language": "Eng",
 "compatibility": "AK, AK+",
 "stock": "Available",
-"image": "balde-eagle.webp",
+"image": "a003-bald-eagle.webp",
 "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
 },
 {
-"name": "030. Bengal Tiger",
+"name": "A030. Bengal Tiger",
 "type": "Animal, Chibi",
+"rarity": "Common",
+"language": "Eng",
 "compatibility": "AK, AK+",
 "stock": "Available",
-"image": "bengal.webp",
+"image": "a030-bengal-tiger.webp",
 "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
+},
+{
+"name": "A121. Master Leo",
+"type": "Animal",
+"rarity": "Ultra",
+"language": "Jp",
+"compatibility": "AK",
+"stock": "Available",
+"image": "a121-master-leo-jp.webp",
+"shopee": "https://shopee.co.id/animal-kaiser-master-leo-ur-fanmade-i.20168015.40831481967?extraParams=%7B%22display_model_id%22%3A356019059534%2C%22model_selection_logic%22%3A2%7D"
+},
+{
+"name": "S062. Dirty Fighters",
+"type": "Strong, Chibi",
+"rarity": "Common",
+"language": "Eng",
+"compatibility": "AK, AK+",
+"stock": "Available",
+"image": "s062-dirty-fighters.webp",
+"shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-strong-card-fandame-i.20168015.48355684745?extraParams=%7B%22display_model_id%22%3A310597903498%2C%22model_selection_logic%22%3A2%7D"  
+},
+{
+"name": "M045. Approaching Sun",
+"type": "Miracle, Chibi",
+"rarity": "Common",
+"language": "Eng",
+"compatibility": "AK, AK+",
+"stock": "Available",
+"image": "m045-approaching-sun.webp",
+"shopee": "https://shopee.co.id/animal-kaiser-ak-chibi-mascot-miracle-card-fandame-i.20168015.48308999987?extraParams=%7B%22display_model_id%22%3A310797617193%2C%22model_selection_logic%22%3A2%7D"  
+},
+{
+"name": "M046. Black Hole",
+"type": "Miracle, Chibi",
+"rarity": "Common",
+"language": "Eng",
+"compatibility": "AK, AK+",
+"stock": "Available",
+"image": "m046-black-hole.webp",
+"shopee": "https://shopee.co.id/animal-kaiser-ak-chibi-mascot-miracle-card-fandame-i.20168015.48308999987?extraParams=%7B%22display_model_id%22%3A310797617193%2C%22model_selection_logic%22%3A2%7D"  
 }
 ]
