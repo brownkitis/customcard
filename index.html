@@ -243,28 +243,33 @@ footer{
 
         <div class="popup-left">
 
-            <img
-            src="assets/cards/custom a.webp">
+<img
+id="popup-image"
+src="">
 
         </div>
 
         <div class="popup-right">
 
-            <h2>Custom A</h2>
+            <h2 id="popup-name"></h2>
 
-            <p><b>Category:</b> Animal</p>
+            <p><b>Category:</b> <span id="popup-type"></span></p>
 
-            <p><b>Compatibility:</b> AK+</p>
+            <p><b>Compatibility:</b> <span id="popup-compatibility"></span></p>
 
-            <p><b>Stock:</b> Available</p>
+            <p><b>Stock:</b> <span id="popup-stock"></span></p>
 
             <br>
 
             <p>Buy now at:</p>
 
-            <img
-            src="assets/icons/shopee.png"
-            class="shopee-btn">
+<a id="popup-shopee" target="_blank">
+
+    <img
+    src="assets/icons/shopee.png"
+    class="shopee-btn">
+
+</a>
 
         </div>
 
@@ -274,8 +279,30 @@ footer{
 
 <script>
 
-function openPopup(){
-    document.getElementById("popup").style.display = "flex";
+function openPopup(index){
+
+    var card = window.cardsData[index];
+
+    document.getElementById("popup-image").src =
+    "assets/cards/" + card.image;
+
+    document.getElementById("popup-name").innerText =
+    card.name;
+
+    document.getElementById("popup-type").innerText =
+    card.type;
+
+    document.getElementById("popup-compatibility").innerText =
+    card.compatibility;
+
+    document.getElementById("popup-stock").innerText =
+    card.stock;
+
+    document.getElementById("popup-shopee").href =
+    card.shopee;
+
+    document.getElementById("popup").style.display =
+    "flex";
 }
 
 function closePopup(){
@@ -287,14 +314,15 @@ fetch("assets/data/cards.json")
     return response.json();
 })
 .then(function(cards){
-
+window.cardsData = cards;
+    
     var container =
     document.getElementById("cards-container");
 
     cards.forEach(function(card){
 
         container.innerHTML +=
-        '<div class="card" onclick="openPopup()">' +
+        '<div class="card" onclick="openPopup(' + cards.indexOf(card) + ')">' +
             '<div class="card-image">' +
                 '<img src="assets/cards/' + card.image + '">' +
             '</div>' +
