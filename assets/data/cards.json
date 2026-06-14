@@ -1,0 +1,34 @@
+[
+{
+"name": "001. lion",
+"type": "Animal, Chibi",
+"compatibility": "AK, AK+",
+"stock": "Available",
+"image": "lion.webp",
+"shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
+},
+{
+"name": "002. Great White Shark",
+"type": "Animal, Chibi",
+"compatibility": "AK, AK+",
+"stock": "Available",
+"image": "gws.webp",
+"shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
+},
+{
+"name": "003. Bald Eagle",
+"type": "Animal, Chibi",
+"compatibility": "AK, AK+",
+"stock": "Available",
+"image": "balde-eagle.webp",
+"shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
+},
+{
+"name": "030. Bengal Tiger",
+"type": "Animal, Chibi",
+"compatibility": "AK, AK+",
+"stock": "Available",
+"image": "bengal.webp",
+"shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
+}
+]
