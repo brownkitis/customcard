@@ -211,9 +211,10 @@ footer{
 
     <div class="content">
 
-        <input
-        class="search"
-        placeholder="Search cards...">
+<input
+class="search"
+id="searchInput"
+placeholder="Search cards...">
 
 <div class="cards" id="cards-container">
 
@@ -316,8 +317,10 @@ fetch("assets/data/cards.json")
     return response.json();
 })
 .then(function(cards){
-window.cardsData = cards;
-    
+
+    window.cardsData = cards;
+    window.filteredCards = cards;
+
     var container =
     document.getElementById("cards-container");
 
@@ -332,6 +335,36 @@ window.cardsData = cards;
                 card.name +
             '</div>' +
         '</div>';
+
+    });
+
+    document.getElementById("searchInput")
+    .addEventListener("input", function(){
+
+        var keyword =
+        this.value.toLowerCase();
+
+        container.innerHTML = "";
+
+        window.cardsData.forEach(function(card){
+
+            if(
+                card.name.toLowerCase().includes(keyword)
+            ){
+
+                container.innerHTML +=
+                '<div class="card" onclick="openPopup(' + window.cardsData.indexOf(card) + ')">' +
+                    '<div class="card-image">' +
+                        '<img src="assets/cards/' + card.image + '">' +
+                    '</div>' +
+                    '<div class="card-name">' +
+                        card.name +
+                    '</div>' +
+                '</div>';
+
+            }
+
+        });
 
     });
 
