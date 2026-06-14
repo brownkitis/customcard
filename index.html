@@ -275,14 +275,37 @@ footer{
 <script>
 
 function openPopup(){
-    document.getElementById("popup")
-    .style.display="flex";
+    document.getElementById("popup").style.display = "flex";
 }
 
 function closePopup(){
-    document.getElementById("popup")
-    .style.display="none";
+    document.getElementById("popup").style.display = "none";
 }
+
+fetch("assets/data/cards.json")
+.then(function(response){
+    return response.json();
+})
+.then(function(cards){
+
+    var container =
+    document.getElementById("cards-container");
+
+    cards.forEach(function(card){
+
+        container.innerHTML +=
+        '<div class="card" onclick="openPopup()">' +
+            '<div class="card-image">' +
+                '<img src="assets/cards/' + card.image + '">' +
+            '</div>' +
+            '<div class="card-name">' +
+                card.name +
+            '</div>' +
+        '</div>';
+
+    });
+
+});
 
 </script>
     
