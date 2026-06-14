@@ -109,6 +109,42 @@ footer{
     margin:20px;
     border-radius:15px;
 }
+
+.popup{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.65);
+    justify-content:center;
+    align-items:center;
+    z-index:999;
+}
+
+.popup-content{
+    width:800px;
+    background:black;
+    color:white;
+    border-radius:20px;
+    padding:40px;
+    position:relative;
+    display:flex;
+    gap:40px;
+}
+
+.popup-actions{
+    position:absolute;
+    top:20px;
+    right:20px;
+    display:flex;
+    gap:10px;
+}
+
+.popup-actions img{
+    width:32px;
+    height:32px;
+    cursor:pointer;
+}
+    
 </style>
 </head>
 
@@ -167,7 +203,7 @@ footer{
 
         <div class="cards">
 
-            <div class="card">
+            <div class="card" onclick="openPopup()">
 
     <div class="card-image">
         <img src="assets/cards/custom a.webp">
@@ -197,5 +233,66 @@ footer{
     This is a fanmade custom card project.
 </footer>
 
+<div id="popup" class="popup">
+
+    <div class="popup-content">
+
+        <div class="popup-actions">
+
+            <img src="assets/icons/thumb-off.png">
+
+            <img src="assets/icons/share.png">
+
+            <img
+            src="assets/icons/close.png"
+            onclick="closePopup()">
+
+        </div>
+
+        <div class="popup-left">
+
+            <img
+            src="assets/cards/custom-a.webp">
+
+        </div>
+
+        <div class="popup-right">
+
+            <h2>Custom A</h2>
+
+            <p><b>Category:</b> Animal</p>
+
+            <p><b>Compatibility:</b> AK+</p>
+
+            <p><b>Stock:</b> Available</p>
+
+            <br>
+
+            <p>Buy now at:</p>
+
+            <img
+            src="assets/icons/shopee.png"
+            class="shopee-btn">
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+function openPopup(){
+    document.getElementById("popup")
+    .style.display="flex";
+}
+
+function closePopup(){
+    document.getElementById("popup")
+    .style.display="none";
+}
+
+</script>
+    
 </body>
 </html>
