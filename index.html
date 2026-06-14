@@ -256,7 +256,11 @@ src="">
 
             <h2 id="popup-name"></h2>
 
-            <p><b>Category:</b> <span id="popup-type"></span></p>
+            <p><b>Type:</b> <span id="popup-type"></span></p>
+
+            <p><b>Rarity:</b> <span id="popup-rarity"></span></p>
+
+            <p><b>Language:</b> <span id="popup-language"></span></p>
 
             <p><b>Compatibility:</b> <span id="popup-compatibility"></span></p>
 
@@ -294,6 +298,12 @@ function openPopup(index){
 
     document.getElementById("popup-type").innerText =
     card.type;
+
+    document.getElementById("popup-rarity").innerText =
+    card.rarity;
+
+    document.getElementById("popup-language").innerText =
+    card.language;
 
     document.getElementById("popup-compatibility").innerText =
     card.compatibility;
