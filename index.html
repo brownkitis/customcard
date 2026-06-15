@@ -430,6 +430,18 @@ fetch("assets/data/cards.json")
 document.addEventListener("contextmenu", function(e){
     e.preventDefault();
 });
+
+    document.querySelectorAll(".filter-btn")
+.forEach(function(button){
+
+    button.addEventListener("click", function(){
+
+        this.classList.toggle("active");
+
+    });
+
+});
+    
 </script>    
     
 </body>
