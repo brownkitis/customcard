@@ -420,23 +420,28 @@ fetch("assets/data/cards.json")
 
 });
 
-</script>
+<script>
+
 document.addEventListener("contextmenu", function(e){
     e.preventDefault();
 });
 
+window.addEventListener("load", function(){
+
     document.querySelectorAll(".filter-btn")
-.forEach(function(button){
+    .forEach(function(button){
 
-    button.addEventListener("click", function(){
+        button.addEventListener("click", function(){
 
-        this.classList.toggle("active");
+            this.classList.toggle("active");
+
+        });
 
     });
 
 });
-    
-</script>    
+
+</script> 
     
 </body>
 </html>
