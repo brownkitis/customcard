@@ -368,24 +368,7 @@ function closePopup(){
 
 function renderCards(cards){
 
-    var container =
-    document.getElementById("cards-container");
-
-    container.innerHTML = "";
-
-    cards.forEach(function(card){
-
-        container.innerHTML +=
-        '<div class="card" onclick="openPopup(' + window.cardsData.indexOf(card) + ')">' +
-            '<div class="card-image">' +
-                '<img src="assets/cards/' + card.image + '">' +
-            '</div>' +
-            '<div class="card-name">' +
-                card.name +
-            '</div>' +
-        '</div>';
-
-    });
+   renderCards(cards);
 
 }
     
