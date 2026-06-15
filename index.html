@@ -378,17 +378,10 @@ fetch("assets/data/cards.json")
 })
 .then(function(cards){
 
-    window.cardsData = cards;
-    window.filteredCards = cards;
+window.cardsData = cards;
+window.filteredCards = cards;
 
-    var container =
-    document.getElementById("cards-container");
-
-    cards.forEach(function(card){
-
-        ...
-
-    });
+renderCards(cards);
 
     document.getElementById("searchInput")
     .addEventListener("input", function(){
