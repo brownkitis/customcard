@@ -366,6 +366,29 @@ function closePopup(){
     document.getElementById("popup").style.display = "none";
 }
 
+function renderCards(cards){
+
+    var container =
+    document.getElementById("cards-container");
+
+    container.innerHTML = "";
+
+    cards.forEach(function(card){
+
+        container.innerHTML +=
+        '<div class="card" onclick="openPopup(' + window.cardsData.indexOf(card) + ')">' +
+            '<div class="card-image">' +
+                '<img src="assets/cards/' + card.image + '">' +
+            '</div>' +
+            '<div class="card-name">' +
+                card.name +
+            '</div>' +
+        '</div>';
+
+    });
+
+}
+    
 fetch("assets/data/cards.json")
 .then(function(response){
     return response.json();
@@ -380,15 +403,7 @@ fetch("assets/data/cards.json")
 
     cards.forEach(function(card){
 
-        container.innerHTML +=
-        '<div class="card" onclick="openPopup(' + cards.indexOf(card) + ')">' +
-            '<div class="card-image">' +
-                '<img src="assets/cards/' + card.image + '">' +
-            '</div>' +
-            '<div class="card-name">' +
-                card.name +
-            '</div>' +
-        '</div>';
+        ...
 
     });
 
