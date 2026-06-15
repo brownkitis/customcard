@@ -368,20 +368,37 @@ function closePopup(){
 
 function renderCards(cards){
 
-   renderCards(cards);
+    var container =
+    document.getElementById("cards-container");
+
+    container.innerHTML = "";
+
+    cards.forEach(function(card){
+
+        container.innerHTML +=
+        '<div class="card" onclick="openPopup(' + window.cardsData.indexOf(card) + ')">' +
+            '<div class="card-image">' +
+                '<img src="assets/cards/' + card.image + '">' +
+            '</div>' +
+            '<div class="card-name">' +
+                card.name +
+            '</div>' +
+        '</div>';
+
+    });
 
 }
-    
+
 fetch("assets/data/cards.json")
 .then(function(response){
     return response.json();
 })
 .then(function(cards){
 
-window.cardsData = cards;
-window.filteredCards = cards;
+    window.cardsData = cards;
+    window.filteredCards = cards;
 
-renderCards(cards);
+    renderCards(cards);
 
     document.getElementById("searchInput")
     .addEventListener("input", function(){
@@ -389,35 +406,21 @@ renderCards(cards);
         var keyword =
         this.value.toLowerCase();
 
-        document.getElementById("cards-container").innerHTML = "";
+        var results = window.cardsData.filter(function(card){
 
-        window.cardsData.forEach(function(card){
-
-            if(
-                card.name.toLowerCase().includes(keyword)
-            ){
-
-                container.innerHTML +=
-                '<div class="card" onclick="openPopup(' + window.cardsData.indexOf(card) + ')">' +
-                    '<div class="card-image">' +
-                        '<img src="assets/cards/' + card.image + '">' +
-                    '</div>' +
-                    '<div class="card-name">' +
-                        card.name +
-                    '</div>' +
-                '</div>';
-
-            }
+            return card.name
+            .toLowerCase()
+            .includes(keyword);
 
         });
+
+        renderCards(results);
 
     });
 
 });
 
 </script>
-
-<script>
 document.addEventListener("contextmenu", function(e){
     e.preventDefault();
 });
