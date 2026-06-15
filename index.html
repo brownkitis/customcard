@@ -93,6 +93,9 @@ nav{
     height:100%;
     object-fit:contain;
     border-radius:10px;
+
+    user-select:none;
+    -webkit-user-drag:none;
 }
 
 .card-name{
@@ -382,6 +385,12 @@ fetch("assets/data/cards.json")
 });
 
 </script>
+
+<script>
+document.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+});
+</script>    
     
 </body>
 </html>
