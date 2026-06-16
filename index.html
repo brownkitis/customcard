@@ -11,10 +11,26 @@ body{
 }
 
 header{
-    background:#FFFFFF;
+    background:#ffffff;
     color:#000000;
-    padding:8px;
+
+    padding:20px;
+
     border-bottom:1px solid #000000;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+    .logo{
+    height:50px;
+    width:auto;
+}
+
+    .header-title{
+    font-size:18px;
+    font-weight:600;
 }
 
 nav{
@@ -202,14 +218,12 @@ footer{
 
 <header>
 
-    <div class="header-logo">
+    <img
+    src="assets/logo/logo.webp"
+    class="logo">
 
-        <img
-        src="assets/icons/brownkitis_1.webp"
-        alt="Logo">
-
-        <h1>Custom Card Catalog</h1>
-
+    <div class="header-title">
+        Custom & Fanmade Card
     </div>
 
 </header>
