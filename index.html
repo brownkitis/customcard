@@ -177,14 +177,22 @@ nav{
 }
 
 .card{
-    background:#ebebeb;
+    background:#F3F3F3;
+    color:#000000;
+
     border-radius:15px;
     cursor:pointer;
-    transition:0.2s;
+    transition:0.25s;
+
     padding:12px;
     box-sizing:border-box;
 }
 
+    .card:hover{
+    background:#000000;
+    color:#FFFFFF;
+}
+    
 .card-image{
     aspect-ratio:4/5;
 }
@@ -199,21 +207,20 @@ nav{
     -webkit-user-drag:none;
 }
 
-.card-name{
-    margin-top:6px;
-    text-align:left;
-
+    .card-name{
+    margin-top:10px;
+    text-align:center;
     font-family:"Coolvetica Book Regular";
-
     font-size:11px;
-
+        
     color:#000000;
-
+    transition:0.25s;
 }
 
-.card:hover{
-    transform:translateY(-4px);
+.card:hover .card-name{
+    color:#FFFFFF;
 }
+    
 
 footer{
     background:white;
