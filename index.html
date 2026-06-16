@@ -304,7 +304,6 @@ footer{
 
 <section class="hero">
 
-```
 <div>
     <h2>Custom Card Collection</h2>
 
@@ -315,20 +314,17 @@ footer{
 </div>
 
 <div class="hero-image"></div>
-```
 
 </section>
 
 <div class="search-wrapper">
 
-```
 <input
 class="search"
 id="searchInput"
 placeholder="Search cards...">
 
 <div id="result-count"></div>
-```
 
 </div>
 
@@ -336,7 +332,6 @@ placeholder="Search cards...">
 
 <div class="sidebar">
 
-```
 <h3>Filters</h3>
 
 <p><b>Card Type</b></p>
@@ -367,17 +362,14 @@ placeholder="Search cards...">
 
 <button class="filter-btn" data-compatibility="AK">AK</button>
 <button class="filter-btn" data-compatibility="AK+">AK+</button>
-```
 
 </div>
 
 <div class="content">
-
-```
+    
 <div class="cards" id="cards-container">
 
 </div>
-```
 
 </div>
 
@@ -573,7 +565,7 @@ function applyFilters(){
     });
 
     renderCards(results);
-
+}
     
 fetch("assets/data/cards.json")
 .then(function(response){
