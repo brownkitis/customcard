@@ -187,6 +187,13 @@ footer{
     height:auto;
     cursor:pointer;
 }
+
+#result-count{
+    font-size:12px;
+    color:#999;
+    text-align:right;
+    margin-bottom:12px;
+}
     
 </style>
 </head>
@@ -377,7 +384,7 @@ function renderCards(cards){
     container.innerHTML = "";
 
     document.getElementById("result-count").innerText =
-cards.length + " Results";
+cards.length + " results";
 
     cards.forEach(function(card){
 
