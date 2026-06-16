@@ -261,6 +261,8 @@ class="search"
 id="searchInput"
 placeholder="Search cards...">
 
+<p id="result-count">0 Results</p>
+
 <div class="cards" id="cards-container">
 
 </div>
@@ -373,6 +375,9 @@ function renderCards(cards){
     document.getElementById("cards-container");
 
     container.innerHTML = "";
+
+    document.getElementById("result-count").innerText =
+cards.length + " Results";
 
     cards.forEach(function(card){
 
