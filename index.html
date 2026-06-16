@@ -389,6 +389,148 @@ function renderCards(cards){
 
 }
 
+function applyFilters(){
+
+    var keyword =
+    document.getElementById("searchInput")
+    .value
+    .toLowerCase();
+
+    var activeTypes = [];
+    var activeRarities = [];
+    var activeLanguages = [];
+    var activeCompatibilities = [];
+
+    document.querySelectorAll(".filter-btn.active")
+    .forEach(function(button){
+
+        if(button.dataset.type){
+            activeTypes.push(button.dataset.type);
+        }
+
+        if(button.dataset.rarity){
+            activeRarities.push(button.dataset.rarity);
+        }
+
+        if(button.dataset.language){
+            activeLanguages.push(button.dataset.language);
+        }
+
+        if(button.dataset.compatibility){
+            activeCompatibilities.push(button.dataset.compatibility);
+        }
+
+    });
+
+    var results = window.cardsData.filter(function(card){
+
+        var matchSearch =
+        card.name.toLowerCase().includes(keyword);
+
+        var matchType =
+        activeTypes.length === 0 ||
+        activeTypes.some(type =>
+            card.type.includes(type)
+        );
+
+        var matchRarity =
+        activeRarities.length === 0 ||
+        activeRarities.includes(card.rarity);
+
+        var matchLanguage =
+        activeLanguages.length === 0 ||
+        activeLanguages.includes(card.language);
+
+        var matchCompatibility =
+        activeCompatibilities.length === 0 ||
+        activeCompatibilities.some(comp =>
+            card.compatibility.includes(comp)
+        );
+
+        return (
+            matchSearch &&
+            matchType &&
+            matchRarity &&
+            matchLanguage &&
+            matchCompatibility
+        );
+
+    });
+
+    renderCards(results);
+
+}function applyFilters(){
+
+    var keyword =
+    document.getElementById("searchInput")
+    .value
+    .toLowerCase();
+
+    var activeTypes = [];
+    var activeRarities = [];
+    var activeLanguages = [];
+    var activeCompatibilities = [];
+
+    document.querySelectorAll(".filter-btn.active")
+    .forEach(function(button){
+
+        if(button.dataset.type){
+            activeTypes.push(button.dataset.type);
+        }
+
+        if(button.dataset.rarity){
+            activeRarities.push(button.dataset.rarity);
+        }
+
+        if(button.dataset.language){
+            activeLanguages.push(button.dataset.language);
+        }
+
+        if(button.dataset.compatibility){
+            activeCompatibilities.push(button.dataset.compatibility);
+        }
+
+    });
+
+    var results = window.cardsData.filter(function(card){
+
+        var matchSearch =
+        card.name.toLowerCase().includes(keyword);
+
+        var matchType =
+        activeTypes.length === 0 ||
+        activeTypes.some(type =>
+            card.type.includes(type)
+        );
+
+        var matchRarity =
+        activeRarities.length === 0 ||
+        activeRarities.includes(card.rarity);
+
+        var matchLanguage =
+        activeLanguages.length === 0 ||
+        activeLanguages.includes(card.language);
+
+        var matchCompatibility =
+        activeCompatibilities.length === 0 ||
+        activeCompatibilities.some(comp =>
+            card.compatibility.includes(comp)
+        );
+
+        return (
+            matchSearch &&
+            matchType &&
+            matchRarity &&
+            matchLanguage &&
+            matchCompatibility
+        );
+
+    });
+
+    renderCards(results);
+
+}
+    
 fetch("assets/data/cards.json")
 .then(function(response){
     return response.json();
@@ -400,23 +542,8 @@ fetch("assets/data/cards.json")
 
     renderCards(cards);
 
-    document.getElementById("searchInput")
-    .addEventListener("input", function(){
-
-        var keyword =
-        this.value.toLowerCase();
-
-        var results = window.cardsData.filter(function(card){
-
-            return card.name
-            .toLowerCase()
-            .includes(keyword);
-
-        });
-
-        renderCards(results);
-
-    });
+document.getElementById("searchInput")
+.addEventListener("input", applyFilters);
 
 });
 
@@ -433,11 +560,13 @@ window.addEventListener("load", function(){
     document.querySelectorAll(".filter-btn")
     .forEach(function(button){
 
-        button.addEventListener("click", function(){
+button.addEventListener("click", function(){
 
-            this.classList.toggle("active");
+    this.classList.toggle("active");
 
-        });
+    applyFilters();
+
+});
 
     });
 
