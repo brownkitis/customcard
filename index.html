@@ -71,9 +71,9 @@ nav{
     margin-top:10px;
     color:#FFFFFF;
 }
-
+    
 .hero{
-    background:#ebebeb;
+    background:#FFFFFF;
     color:#FFFFFF;
     margin:20px;
     padding:20px;
@@ -92,15 +92,24 @@ nav{
 
 .catalog{
     display:flex;
+
     margin:20px;
-    gap:20px;
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    gap:25px;
 }
 
 .sidebar{
     width:250px;
-    background:#ebebeb;
-    padding:20px;
-    border-radius:15px;
+
+    padding-right:25px;
+
+    border-right:1px solid #dddddd;
 }
 
     .filter-btn{
@@ -130,28 +139,41 @@ nav{
 
 .content{
     flex:1;
-    background:white;
-    padding:20px;
-    border-radius:15px;
+
+    padding-left:25px;
 }
 
 .search{
+    width:500px;
 
-    margin-top:10px;
+    padding:18px 30px;
+
+    border:none;
+
+    border-radius:999px;
+
+    background:#ff1a1a;
+
+    color:white;
+
+    font-size:18px;
+
+    outline:none;
+}
+
+    .search-wrapper{
+    width:100%;
     text-align:center;
 
-    font-family:"Coolvetica El Italic";
-
-    font-size:10px;
-
-    color:#ebebeb;
-    
-    width:100%;
-    padding:12px;
+    margin-top:-40px;
     margin-bottom:20px;
-    border:1px solid #ddd;
-    border-radius:10px;
-    box-sizing:border-box;
+
+    position:relative;
+    z-index:10;
+}
+
+    .search::placeholder{
+    color:white;
 }
 
 .cards{
@@ -255,10 +277,13 @@ footer{
 }
 
 #result-count{
+    margin-top:10px;
+
+    text-align:center;
+
     font-size:12px;
-    color:#999;
-    text-align:left;
-    margin-bottom:12px;
+
+    color:#888;
 }
     
 </style>
@@ -330,16 +355,31 @@ footer{
 
 </div>
 
-    <div class="content">
+<div class="search-wrapper">
 
-<input
-class="search"
-id="searchInput"
-placeholder="Search cards...">
+    <input
+    class="search"
+    id="searchInput"
+    placeholder="Search cards...">
 
-<p id="result-count">0 Results</p>
+    <div id="result-count"></div>
 
-<div class="cards" id="cards-container">
+</div>
+
+<section class="catalog">
+
+<div class="sidebar">
+
+...
+
+</div>
+
+<div class="content">
+
+    <div class="cards" id="cards-container">
+
+    </div>
+
 
 </div>
 
