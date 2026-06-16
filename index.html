@@ -286,20 +286,13 @@ placeholder="Search cards...">
 
     <div class="popup-content">
 
-        <div class="popup-actions">
+<div class="popup-actions">
 
-            <img
-id="favorite-btn"
-src="assets/icons/thumb-off.png"
-onclick="toggleFavorite()">
+    <img
+    src="assets/icons/close.png"
+    onclick="closePopup()">
 
-            <img src="assets/icons/share.png">
-
-            <img
-            src="assets/icons/close.png"
-            onclick="closePopup()">
-
-        </div>
+</div>
 
         <div class="popup-left">
 
@@ -342,14 +335,10 @@ src="">
 </div>
 
 <script>
-
-var favorites =
-JSON.parse(localStorage.getItem("favorites")) || [];
     
 function openPopup(index){
 
     var card = window.cardsData[index];
-    window.currentCard = card;
 
     document.getElementById("popup-image").src =
     "assets/cards/" + card.image;
@@ -375,64 +364,12 @@ function openPopup(index){
     document.getElementById("popup-shopee").href =
     card.shopee;
     
-    updateFavoriteButton();
-    
     document.getElementById("popup").style.display =
     "flex";
 }
 
 function closePopup(){
     document.getElementById("popup").style.display = "none";
-}
-
-function toggleFavorite(){
-
-    var currentCard =
-    window.currentCard;
-
-    var index =
-    favorites.indexOf(currentCard.name);
-
-    if(index === -1){
-
-        favorites.push(currentCard.name);
-
-    }else{
-
-        favorites.splice(index, 1);
-
-    }
-
-    localStorage.setItem(
-        "favorites",
-        JSON.stringify(favorites)
-    );
-
-    updateFavoriteButton();
-
-}
-
-function updateFavoriteButton(){
-
-    var thumb =
-    document.getElementById("favorite-btn");
-
-    if(
-        favorites.includes(
-            window.currentCard.name
-        )
-    ){
-
-        thumb.src =
-        "assets/icons/thumb-on.png";
-
-    }else{
-
-        thumb.src =
-        "assets/icons/thumb-off.png";
-
-    }
-
 }
 
 function renderCards(cards){
