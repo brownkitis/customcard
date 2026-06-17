@@ -552,24 +552,28 @@ function applyFilters(){
         card.name.toLowerCase().includes(keyword);
 
         var matchType =
-        activeTypes.length === 0 ||
-        activeTypes.some(type =>
-            card.type.includes(type)
-        );
+activeTypes.length === 0 ||
+activeTypes.some(type =>
+    card.type.toLowerCase().includes(type.toLowerCase())
+);
 
-        var matchRarity =
-        activeRarities.length === 0 ||
-        activeRarities.includes(card.rarity);
+var matchRarity =
+activeRarities.length === 0 ||
+activeRarities.some(rarity =>
+    card.rarity.toLowerCase().includes(rarity.toLowerCase())
+);
 
-        var matchLanguage =
-        activeLanguages.length === 0 ||
-        activeLanguages.includes(card.language);
+var matchLanguage =
+activeLanguages.length === 0 ||
+activeLanguages.some(lang =>
+    card.language.toLowerCase().includes(lang.toLowerCase())
+);
 
-        var matchCompatibility =
-        activeCompatibilities.length === 0 ||
-        activeCompatibilities.some(comp =>
-            card.compatibility.includes(comp)
-        );
+var matchCompatibility =
+activeCompatibilities.length === 0 ||
+activeCompatibilities.some(comp =>
+    card.compatibility.toLowerCase().includes(comp.toLowerCase())
+);
 
         return (
             matchSearch &&
