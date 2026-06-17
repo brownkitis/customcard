@@ -592,6 +592,20 @@ fetch("assets/data/cards.json")
     window.filteredCards = cards;
 
 cards.sort(function(a,b){
+
+    const order = {
+        A:0,
+        S:1,
+        M:2
+    };
+
+    const typeA = a.name.charAt(0);
+    const typeB = b.name.charAt(0);
+
+    if(typeA !== typeB){
+        return order[typeA] - order[typeB];
+    }
+
     return a.name.localeCompare(b.name);
 });
     
