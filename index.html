@@ -591,6 +591,10 @@ fetch("assets/data/cards.json")
     window.cardsData = cards;
     window.filteredCards = cards;
 
+cards.sort(function(a,b){
+    return a.name.localeCompare(b.name);
+});
+    
     renderCards(cards);
 
 document.getElementById("searchInput")
