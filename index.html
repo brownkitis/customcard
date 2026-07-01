@@ -604,30 +604,32 @@ fetch("assets/data/cards.json")
     window.cardsData = cards;
     window.filteredCards = cards;
 
-cards.sort(function(a,b){
+cards.sort(function(a, b){
 
     function getPrefix(name){
 
-        if(name.startsWith("SP")){
-            return "SP";
-        }
+        const code = name.split(".")[0];
 
-        return name.charAt(0);
+        if(code.startsWith("SP")) return "SP";
+        if(code.startsWith("A")) return "A";
+        if(code.startsWith("S")) return "S";
+        if(code.startsWith("M")) return "M";
 
+        return "";
     }
 
     const order = {
-        A:0,
-        S:1,
-        M:2,
-        SP:3
+        A: 0,
+        S: 1,
+        M: 2,
+        SP: 3
     };
 
-    const typeA = getPrefix(a.name);
-    const typeB = getPrefix(b.name);
+    const prefixA = getPrefix(a.name);
+    const prefixB = getPrefix(b.name);
 
-    if(typeA !== typeB){
-        return order[typeA] - order[typeB];
+    if(prefixA !== prefixB){
+        return order[prefixA] - order[prefixB];
     }
 
     return a.name.localeCompare(b.name);
