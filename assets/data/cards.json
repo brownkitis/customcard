@@ -40,19 +40,9 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
   },
   {
-    "name": "A121. Master Leo",
-    "type": "Animal",
-    "rarity": "Ultra, Promotion",
-    "language": "Jp",
-    "compatibility": "AK",
-    "stock": "Available",
-    "image": "a121-master-leo-jp.webp",
-    "shopee": "https://shopee.co.id/animal-kaiser-master-leo-ur-fanmade-i.20168015.40831481967?extraParams=%7B%22display_model_id%22%3A356019059534%2C%22model_selection_logic%22%3A2%7D"
-  },
-  {
     "name": "S062. Dirty Fighters",
     "type": "Strong, Chibi",
-    "rarity": "Common, Promotion",
+    "rarity": "Common",
     "language": "Eng",
     "compatibility": "AK",
     "stock": "Available",
@@ -62,7 +52,7 @@
   {
     "name": "M045. Approaching Sun",
     "type": "Miracle, Chibi",
-    "rarity": "Common, Promotion",
+    "rarity": "Common",
     "language": "Eng",
     "compatibility": "AK, AK+",
     "stock": "Available",
@@ -72,7 +62,7 @@
   {
     "name": "M046. Black Hole",
     "type": "Miracle, Chibi",
-    "rarity": "Common, Promotion",
+    "rarity": "Common",
     "language": "Eng",
     "compatibility": "AK, AK+",
     "stock": "Available",
@@ -246,7 +236,7 @@
     "language": "Eng",
     "compatibility": "AK",
     "stock": "Available",
-    "image": "a157-regulus.webp",
+    "image": "a167-regulus.webp",
     "shopee": "https://shopee.co.id/Animal-Kaiser-Chibi-Mascot-B-Fandame-Kartu-Fanmade-i.20168015.44950064249?extraParams=%7B%22display_model_id%22%3A310004487402%2C%22model_selection_logic%22%3A2%7D"
   },
   {
@@ -272,7 +262,7 @@
   {
     "name": "A159. Mecha Lion HGX",
     "type": "Animal",
-    "rarity": "Special",
+    "rarity": "Ultra, Special",
     "language": "Jp",
     "compatibility": "AK",
     "stock": "Available",
@@ -282,7 +272,7 @@
   {
     "name": "A108. Galleon",
     "type": "Animal",
-    "rarity": "Special",
+    "rarity": "Ultra, Special",
     "language": "Jp",
     "compatibility": "AK",
     "stock": "Available",
@@ -365,7 +355,7 @@
     "rarity": "Common",
     "language": "Eng",
     "compatibility": "AK",
-    "stock": "Available.webp",
+    "stock": "Available",
     "image": "a110-death-scorch.webp",
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-fanmade-G-i.20168015.47702894320?extraParams=%7B%22display_model_id%22%3A440277615000%2C%22model_selection_logic%22%3A3%7D"
   },
@@ -492,7 +482,7 @@
   {
     "name": "M002. Meteor Shower",
     "type": "Miracle, Chibi",
-    "rarity": "Common, Promotion",
+    "rarity": "Common",
     "language": "Eng",
     "compatibility": "AK, AK+",
     "stock": "Available",
@@ -557,6 +547,666 @@
     "compatibility": "AK",
     "stock": "Limited",
     "image": "s152-mighty.webp",
-    "shopee": "nan"
+    "shopee": ""
+  },
+  {
+    "name": "A061. Siegried",
+    "type": "Animal",
+    "rarity": "Ultra, Special",
+    "language": "Jp",
+    "compatibility": "AK, AK+",
+    "stock": "Coming Soon",
+    "image": "a061-siegfried-jp_frame.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A110. Death Scorch",
+    "type": "Animal",
+    "rarity": "Ultra, Special",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a110-death-scorch-jp_frame.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A135. Mecha Tiger",
+    "type": "Animal",
+    "rarity": "Ultra, Special",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a135-mecha-tiger-jp_frame.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A166. Emperor Vertus",
+    "type": "Animal",
+    "rarity": "Ultra, Special",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a166-emperor-vertus-jp_frame.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A007. Leo, the Lion Cub",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Promotion",
+    "language": "Jp",
+    "compatibility": "AK, AK+",
+    "stock": "Available",
+    "image": "a007-leo-jp_promo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A007. Special Ops Leo",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Promotion",
+    "language": "Jp",
+    "compatibility": "AK, AK+",
+    "stock": "Available",
+    "image": "a007-sol-jp_promo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A008. Blue the Young Shark",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Promotion",
+    "language": "Jp",
+    "compatibility": "AK, AK+",
+    "stock": "Available",
+    "image": "a008-blue-jp_promo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A009. Icarus, the Young Eagle",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Promotion",
+    "language": "Jp",
+    "compatibility": "AK, AK+",
+    "stock": "Available",
+    "image": "a009-icarus-jp_promo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A061. Siegried",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Promotion",
+    "language": "Jp",
+    "compatibility": "AK, AK+",
+    "stock": "Available",
+    "image": "a061-siegfried-jp_promo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A080. Scorch",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Promotion",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a080-scorch-jp_promo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A100. Apollo, the Liger Cub",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Promotion",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a100-apollo-jp_promo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A108. Galleon",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Promotion",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a108-galleon-jp_promo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A110. Death Scorch",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Promotion",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a110-death-scorch-jp_promo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A160. Brutus",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Promotion",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a153-brutus-jp_promo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A153. Celeo, Leo Jr.",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Promotion",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a153-celeo-jp_promo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A157. Regulus, Scorch Jr.",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Promotion",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a157-regulus-jp_promo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A218. Shishiwaka",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Promotion",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a218-shishiwaka-jp_promo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A080. Scorch",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a080-scorch-jp.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A080. Scorch",
+    "type": "Animal",
+    "rarity": "Ultra, Promotion",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a080-scorch-tai.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A096. Atlas",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a096-atlas-jp.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A096. Atlas",
+    "type": "Animal",
+    "rarity": "Ultra, Promotion",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a096-atlas-tai.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A108. Galleon",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a108-galleon-jp.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A108. Galleon",
+    "type": "Animal",
+    "rarity": "Ultra, Promotion",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a108-galleon-tai.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A110. Death Scorch",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a110-death-scorch-jp.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A110. Death Scorch",
+    "type": "Animal",
+    "rarity": "Ultra, Promotion",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a110-death-scorch-tai.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A121. Master Leo",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a121-master-leo-jp.webp",
+    "shopee": "https://shopee.co.id/animal-kaiser-master-leo-ur-fanmade-i.20168015.40831481967?extraParams=%7B%22display_model_id%22%3A356019059534%2C%22model_selection_logic%22%3A2%7D"
+  },
+  {
+    "name": "A121. Master Leo",
+    "type": "Animal",
+    "rarity": "Ultra, Promotion",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a121-master-leo-tai.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A125. Ninja Trained Siegfried",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a125-nts-jp.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A125. Ninja Trained Siegfried",
+    "type": "Animal",
+    "rarity": "Ultra, Promotion",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a125-nts-tai.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A145. Zangetsu",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a145-zangetsu-jp.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A145. Zangetsu",
+    "type": "Animal",
+    "rarity": "Ultra, Special",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a145-zangetsu-sr.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A159. Mecha Lion HGX",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a159-mecha-lion-jp.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A159. Mecha Lion-Elite",
+    "type": "Animal",
+    "rarity": "Ultra, Promotion",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a159-mecha-lion-tai.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A160. Brutus",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a160-brutus-jp.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A160. Brutus",
+    "type": "Animal",
+    "rarity": "Ultra, Promotion",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a160-brutus-tai.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A167. Master Apollo",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a167-master apollo-jp.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A167. Master Apollo",
+    "type": "Animal",
+    "rarity": "Ultra, Promotion",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a167-master apollo-tai.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A176. Armageddon",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a176-armageddon-jp.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A176. Armageddon",
+    "type": "Animal",
+    "rarity": "Ultra, Special",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "a176-armageddon-sr.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A000. Blank Card",
+    "type": "Animal",
+    "rarity": "Common",
+    "language": "Jp",
+    "compatibility": "AK, AK+",
+    "stock": "Coming Soon",
+    "image": "a000-blank-card.webp",
+    "shopee": ""
+  },
+  {
+    "name": "SP. Timezone Leo, the Lion Cub",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Special",
+    "language": "Eng",
+    "compatibility": "AK, AK+",
+    "stock": "Coming Soon",
+    "image": "a007-leo_timezone.webp",
+    "shopee": ""
+  },
+  {
+    "name": "SP. Leo, the Lion Cub",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Special",
+    "language": "Jp",
+    "compatibility": "AK, AK+",
+    "stock": "Sold",
+    "image": "a007-leo-jp_lim.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A008. Lego Blue the Young Shark",
+    "type": "Animal",
+    "rarity": "Common, Special",
+    "language": "Eng",
+    "compatibility": "AK, AK+",
+    "stock": "Coming Soon",
+    "image": "a008-blue_lego.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A100. Axel",
+    "type": "Animal",
+    "rarity": "Common",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a100-axel_comic.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A209. Howzer",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Special",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a209-howzer_g.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A218. Shishiwaka",
+    "type": "Animal",
+    "rarity": "Common",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a218-shishiwaka_comic.webp",
+    "shopee": ""
+  },
+  {
+    "name": "SP. Batik Leo, the Lion Cub",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Special",
+    "language": "Eng",
+    "compatibility": "AK, AK+",
+    "stock": "Available",
+    "image": "c007-leo-batik.webp",
+    "shopee": ""
+  },
+  {
+    "name": "SP. Indomaret Leo, the Lion Cub",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Special",
+    "language": "Eng",
+    "compatibility": "AK, AK+",
+    "stock": "Available",
+    "image": "c007-leo-indomaret.webp",
+    "shopee": ""
+  },
+  {
+    "name": "SP. Starbucks Leo, the Lion Cub",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Special",
+    "language": "Eng",
+    "compatibility": "AK, AK+",
+    "stock": "Available",
+    "image": "c007-leo-sb.webp",
+    "shopee": ""
+  },
+  {
+    "name": "SP. Kurama",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Special",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Sold",
+    "image": "c009-kurama~1.webp",
+    "shopee": ""
+  },
+  {
+    "name": "SP. FIFA Leo, the Lion Cub",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Special",
+    "language": "Eng",
+    "compatibility": "AK, AK+",
+    "stock": "Available",
+    "image": "fifa007-leo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "SP. FIFA Apollo, the Ligger Cub",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Special",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Available",
+    "image": "fifa100-apollo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "SP. Kungfu Panda Boss Wolf",
+    "type": "Animal",
+    "rarity": "Common",
+    "language": "Eng",
+    "compatibility": "AK, AK+",
+    "stock": "Coming Soon",
+    "image": "kp010-gray-wolf.webp",
+    "shopee": ""
+  },
+  {
+    "name": "SP. Kungfu Panda Po",
+    "type": "Animal",
+    "rarity": "Common",
+    "language": "Eng",
+    "compatibility": "AK, AK+",
+    "stock": "Coming Soon",
+    "image": "kp011-giant-panda.webp",
+    "shopee": ""
+  },
+  {
+    "name": "SP. Kungfu Panda Tai Lung",
+    "type": "Animal",
+    "rarity": "Common",
+    "language": "Eng",
+    "compatibility": "AK, AK+",
+    "stock": "Coming Soon",
+    "image": "kp016-snow-leopard.webp",
+    "shopee": ""
+  },
+  {
+    "name": "SP. Kungfu Panda Tigress",
+    "type": "Animal",
+    "rarity": "Common",
+    "language": "Eng",
+    "compatibility": "AK, AK+",
+    "stock": "Coming Soon",
+    "image": "kp030-bengal.webp",
+    "shopee": ""
+  },
+  {
+    "name": "SP. Kungfu Panda Mantis",
+    "type": "Animal",
+    "rarity": "Common",
+    "language": "Eng",
+    "compatibility": "AK, AK+",
+    "stock": "Coming Soon",
+    "image": "kp060-praying-mantis.webp",
+    "shopee": ""
+  },
+  {
+    "name": "SP. Leo, the Lion Cub",
+    "type": "Animal, Chibi",
+    "rarity": "Common",
+    "language": "Eng",
+    "compatibility": "AK, AK+",
+    "stock": "Coming Soon",
+    "image": "renjer007-leo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "SP. Apollo, the Ligger Cub",
+    "type": "Animal, Chibi",
+    "rarity": "Common",
+    "language": "Eng",
+    "compatibility": "AK, AK+",
+    "stock": "Coming Soon",
+    "image": "renjer100-apollo.webp",
+    "shopee": ""
+  },
+  {
+    "name": "M155. Alien Vault & M148. Alien Egg Gold",
+    "type": "Miracle",
+    "rarity": "Gold",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Sold",
+    "image": "mvs001.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A121. Master Leo & A167. Master Apollo",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Sold",
+    "image": "vsur001.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A160. Brutus & A111. Master Blue",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Sold",
+    "image": "vsur002.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A108. Galleon & A080. Scorch",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Sold",
+    "image": "vsur003.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A110. Death Scorch & A135. Kaiser Coral",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Sold",
+    "image": "vsur004.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A159. Mecha Lion & A096 Atlas",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Sold",
+    "image": "vsur005.webp",
+    "shopee": ""
+  },
+  {
+    "name": "A166. Emperor Vertus & A176. Armageddon Vertus",
+    "type": "Animal",
+    "rarity": "Ultra",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Sold",
+    "image": "vsur006.webp",
+    "shopee": ""
   }
 ]
