@@ -1,5 +1,6 @@
 [
   {
+    "series": "A",
     "name": "A001. lion",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -10,6 +11,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A002. Great White Shark",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -20,6 +22,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A003. Bald Eagle",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -30,6 +33,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A030. Bengal Tiger",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -40,6 +44,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "S062. Dirty Fighters",
     "type": "Strong, Chibi",
     "rarity": "Common",
@@ -50,6 +55,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-strong-card-fandame-i.20168015.48355684745?extraParams=%7B%22display_model_id%22%3A310597903498%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "M045. Approaching Sun",
     "type": "Miracle, Chibi",
     "rarity": "Common",
@@ -60,6 +66,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-ak-chibi-mascot-miracle-card-fandame-i.20168015.48308999987?extraParams=%7B%22display_model_id%22%3A310797617193%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "M046. Black Hole",
     "type": "Miracle, Chibi",
     "rarity": "Common",
@@ -70,6 +77,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-ak-chibi-mascot-miracle-card-fandame-i.20168015.48308999987?extraParams=%7B%22display_model_id%22%3A310797617193%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A100. Apollo, the Liger Cub",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -80,6 +88,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-A-fanmade-i.20168015.25947665417?extraParams=%7B%22display_model_id%22%3A445003927897%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A176. Armageddon",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -90,6 +99,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-C-fanmade-i.20168015.56500048984?extraParams=%7B%22display_model_id%22%3A380003875822%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A100. Axel",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -100,6 +110,7 @@
     "shopee": "https://shopee.co.id/Animal-Kaiser-Chibi-Mascot-B-Fandame-Kartu-Fanmade-i.20168015.44950064249?extraParams=%7B%22display_model_id%22%3A310004487402%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A008. Blue the Young Shark",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -110,6 +121,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-(2)-i.20168015.48356654199?extraParams=%7B%22display_model_id%22%3A440597176319%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A008. Blue the Young Shark",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -120,6 +132,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-D-fanmade-i.20168015.55000034041?extraParams=%7B%22display_model_id%22%3A370003833579%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A009. Bolt",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -130,6 +143,7 @@
     "shopee": "https://shopee.co.id/Animal-Kaiser-Chibi-Mascot-B-Fandame-Kartu-Fanmade-i.20168015.44950064249?extraParams=%7B%22display_model_id%22%3A310004487402%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A160. Brutus",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -140,6 +154,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-C-fanmade-i.20168015.56500048984?extraParams=%7B%22display_model_id%22%3A380003875822%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A153. Celeo, Leo Jr.",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -150,6 +165,7 @@
     "shopee": "https://shopee.co.id/Animal-Kaiser-Chibi-Mascot-B-Fandame-Kartu-Fanmade-i.20168015.44950064249?extraParams=%7B%22display_model_id%22%3A310004487402%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A108. Galleon",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -160,6 +176,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-C-fanmade-i.20168015.56500048984?extraParams=%7B%22display_model_id%22%3A380003875822%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A219. Geronimo",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -170,6 +187,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-fanmade-F-i.20168015.48450049029?extraParams=%7B%22display_model_id%22%3A282084655848%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A009. Icarus, the Young Eagle",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -180,6 +198,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-(2)-i.20168015.48356654199?extraParams=%7B%22display_model_id%22%3A440597176319%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A044. Joe, the Tiger",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -190,6 +209,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-fanmade-F-i.20168015.48450049029?extraParams=%7B%22display_model_id%22%3A282084655848%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A135. Kaiser Coral",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -200,6 +220,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-C-fanmade-i.20168015.56500048984?extraParams=%7B%22display_model_id%22%3A380003875822%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A043. Kid, the Tiger",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -210,6 +231,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-fanmade-F-i.20168015.48450049029?extraParams=%7B%22display_model_id%22%3A282084655848%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A007. Leo, the Lion Cub",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -220,6 +242,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-fandame-(2)-i.20168015.48356654199?extraParams=%7B%22display_model_id%22%3A440597176319%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A006. Rajan",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -230,6 +253,7 @@
     "shopee": "https://shopee.co.id/Animal-Kaiser-Chibi-Mascot-B-Fandame-Kartu-Fanmade-i.20168015.44950064249?extraParams=%7B%22display_model_id%22%3A310004487402%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A157. Regulus, Scorch Jr.",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -240,6 +264,7 @@
     "shopee": "https://shopee.co.id/Animal-Kaiser-Chibi-Mascot-B-Fandame-Kartu-Fanmade-i.20168015.44950064249?extraParams=%7B%22display_model_id%22%3A310004487402%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A080. Scorch",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -250,6 +275,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-C-fanmade-i.20168015.56500048984?extraParams=%7B%22display_model_id%22%3A380003875822%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A218. Shishiwaka",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -260,6 +286,7 @@
     "shopee": "https://shopee.co.id/Animal-Kaiser-Chibi-Mascot-B-Fandame-Kartu-Fanmade-i.20168015.44950064249?extraParams=%7B%22display_model_id%22%3A310004487402%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A159. Mecha Lion HGX",
     "type": "Animal",
     "rarity": "Ultra, Special",
@@ -270,6 +297,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-ur-special-frame-fanmade-i.20168015.55161745010?extraParams=%7B%22display_model_id%22%3A396019074282%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A108. Galleon",
     "type": "Animal",
     "rarity": "Ultra, Special",
@@ -280,6 +308,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-ur-special-frame-fanmade-i.20168015.55161745010?extraParams=%7B%22display_model_id%22%3A396019074282%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A110. Death Scorch",
     "type": "Animal",
     "rarity": "Special",
@@ -290,6 +319,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-ur-special-frame-fanmade-i.20168015.55161745010?extraParams=%7B%22display_model_id%22%3A396019074282%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A007. Special Ops Leo",
     "type": "Animal, Chibi",
     "rarity": "Gold, Promotion",
@@ -300,6 +330,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-plus-ver-SOL-i.20168015.43028988153?extraParams=%7B%22display_model_id%22%3A420597197236%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A061. Siegried",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -310,6 +341,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-A-fanmade-i.20168015.25947665417?extraParams=%7B%22display_model_id%22%3A445003927897%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A071. Schneider",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -320,6 +352,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-fanmade-G-i.20168015.47702894320?extraParams=%7B%22display_model_id%22%3A440277615000%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A082. Schwarz",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -330,6 +363,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-fanmade-G-i.20168015.47702894320?extraParams=%7B%22display_model_id%22%3A440277615000%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A097. Ares, the Saber-toothed Tiger",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -340,6 +374,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-I-fanmade-i.20168015.53002864882?extraParams=%7B%22display_model_id%22%3A400277656078%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A100. Special Ops Apollo",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -350,6 +385,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-E-fanmade-i.20168015.53100043955?extraParams=%7B%22display_model_id%22%3A325003809893%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A110. Death Scorch",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -360,6 +396,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-fanmade-G-i.20168015.47702894320?extraParams=%7B%22display_model_id%22%3A440277615000%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A111. Master Blue",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -370,6 +407,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-H-fanmade-i.20168015.53652864839?extraParams=%7B%22display_model_id%22%3A330277632403%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A112. Master Icarus",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -380,6 +418,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-H-fanmade-i.20168015.53652864839?extraParams=%7B%22display_model_id%22%3A330277632403%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A121. Master Leo",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -390,6 +429,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-H-fanmade-i.20168015.53652864839?extraParams=%7B%22display_model_id%22%3A330277632403%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A136. Mecha Whale-EX-Σ",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -400,6 +440,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-I-fanmade-i.20168015.53002864882?extraParams=%7B%22display_model_id%22%3A400277656078%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A145. Zangetsu",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -410,6 +451,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-C-fanmade-i.20168015.56500048984?extraParams=%7B%22display_model_id%22%3A380003875822%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A157. Kaiser Brutus",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -420,6 +462,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-H-fanmade-i.20168015.53652864839?extraParams=%7B%22display_model_id%22%3A330277632403%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A159. Mecha Lion-Elite",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -430,6 +473,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-I-fanmade-i.20168015.53002864882?extraParams=%7B%22display_model_id%22%3A400277656078%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A166. Emperor Vertus",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -440,6 +484,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-fanmade-G-i.20168015.47702894320?extraParams=%7B%22display_model_id%22%3A440277615000%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A167. Master Apollo",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -450,6 +495,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-H-fanmade-i.20168015.53652864839?extraParams=%7B%22display_model_id%22%3A330277632403%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A196. Admiral Eraser",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -460,6 +506,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-fanmade-G-i.20168015.47702894320?extraParams=%7B%22display_model_id%22%3A440277615000%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A209. Howzer",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -470,6 +517,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-fanmade-G-i.20168015.47702894320?extraParams=%7B%22display_model_id%22%3A440277615000%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "A",
     "name": "A220. Tonga",
     "type": "Animal, Chibi",
     "rarity": "Common",
@@ -480,6 +528,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-fanmade-F-i.20168015.48450049029?extraParams=%7B%22display_model_id%22%3A282084655848%2C%22model_selection_logic%22%3A3%7D"
   },
   {
+    "series": "M",
     "name": "M002. Meteor Shower",
     "type": "Miracle, Chibi",
     "rarity": "Common",
@@ -490,6 +539,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-ak-chibi-mascot-miracle-card-fandame-i.20168015.48308999987?extraParams=%7B%22display_model_id%22%3A310797617193%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "S",
     "name": "S001. Mighty Fighter",
     "type": "Strong, Chibi",
     "rarity": "Common",
@@ -500,6 +550,7 @@
     "shopee": "https://shopee.co.id/Animal-Kaiser-Chibi-Mascot-Plus-Ver-Fandame-Kartu-Fanmade-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "S",
     "name": "S030. Showdown",
     "type": "Strong, Chibi",
     "rarity": "Common",
@@ -510,6 +561,7 @@
     "shopee": "https://shopee.co.id/Animal-Kaiser-Chibi-Mascot-Plus-Ver-Fandame-Kartu-Fanmade-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "S",
     "name": "S047. Swift Blow",
     "type": "Strong, Chibi",
     "rarity": "Common",
@@ -520,6 +572,7 @@
     "shopee": "https://shopee.co.id/Animal-Kaiser-Chibi-Mascot-Plus-Ver-Fandame-Kartu-Fanmade-i.20168015.47755688294?extraParams=%7B%22display_model_id%22%3A380512927244%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "S",
     "name": "S054. Fight For Justice",
     "type": "Strong, Chibi",
     "rarity": "Common, Promotion",
@@ -530,6 +583,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-strong-card-fandame-i.20168015.48355684745?extraParams=%7B%22display_model_id%22%3A310597903498%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "S",
     "name": "S105. Royal Lineage",
     "type": "Strong, Chibi",
     "rarity": "Common",
@@ -540,6 +594,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-strong-card-fandame-i.20168015.48355684745?extraParams=%7B%22display_model_id%22%3A310597903498%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "S",
     "name": "S152. Mighty Fighter",
     "type": "Strong, Chibi",
     "rarity": "Special, Promotion",
@@ -550,6 +605,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A061. Siegried",
     "type": "Animal",
     "rarity": "Ultra, Special",
@@ -560,6 +616,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A110. Death Scorch",
     "type": "Animal",
     "rarity": "Ultra, Special",
@@ -570,6 +627,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A135. Mecha Tiger",
     "type": "Animal",
     "rarity": "Ultra, Special",
@@ -580,6 +638,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A166. Emperor Vertus",
     "type": "Animal",
     "rarity": "Ultra, Special",
@@ -590,6 +649,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A007. Leo, the Lion Cub",
     "type": "Animal, Chibi",
     "rarity": "Common, Promotion",
@@ -600,6 +660,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A007. Special Ops Leo",
     "type": "Animal, Chibi",
     "rarity": "Common, Promotion",
@@ -610,6 +671,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A008. Blue the Young Shark",
     "type": "Animal, Chibi",
     "rarity": "Common, Promotion",
@@ -620,6 +682,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A009. Icarus, the Young Eagle",
     "type": "Animal, Chibi",
     "rarity": "Common, Promotion",
@@ -630,6 +693,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A061. Siegried",
     "type": "Animal, Chibi",
     "rarity": "Common, Promotion",
@@ -640,6 +704,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A080. Scorch",
     "type": "Animal, Chibi",
     "rarity": "Common, Promotion",
@@ -650,6 +715,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A100. Apollo, the Liger Cub",
     "type": "Animal, Chibi",
     "rarity": "Common, Promotion",
@@ -660,6 +726,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A108. Galleon",
     "type": "Animal, Chibi",
     "rarity": "Common, Promotion",
@@ -670,6 +737,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A110. Death Scorch",
     "type": "Animal, Chibi",
     "rarity": "Common, Promotion",
@@ -680,6 +748,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A160. Brutus",
     "type": "Animal, Chibi",
     "rarity": "Common, Promotion",
@@ -690,6 +759,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A153. Celeo, Leo Jr.",
     "type": "Animal, Chibi",
     "rarity": "Common, Promotion",
@@ -700,6 +770,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A157. Regulus, Scorch Jr.",
     "type": "Animal, Chibi",
     "rarity": "Common, Promotion",
@@ -710,6 +781,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A218. Shishiwaka",
     "type": "Animal, Chibi",
     "rarity": "Common, Promotion",
@@ -720,6 +792,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A080. Scorch",
     "type": "Animal",
     "rarity": "Ultra",
@@ -730,6 +803,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A080. Scorch",
     "type": "Animal",
     "rarity": "Ultra, Promotion",
@@ -740,6 +814,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A096. Atlas",
     "type": "Animal",
     "rarity": "Ultra",
@@ -750,6 +825,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A096. Atlas",
     "type": "Animal",
     "rarity": "Ultra, Promotion",
@@ -760,6 +836,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A108. Galleon",
     "type": "Animal",
     "rarity": "Ultra",
@@ -770,6 +847,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A108. Galleon",
     "type": "Animal",
     "rarity": "Ultra, Promotion",
@@ -780,6 +858,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A110. Death Scorch",
     "type": "Animal",
     "rarity": "Ultra",
@@ -790,6 +869,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A110. Death Scorch",
     "type": "Animal",
     "rarity": "Ultra, Promotion",
@@ -800,6 +880,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A121. Master Leo",
     "type": "Animal",
     "rarity": "Ultra",
@@ -810,6 +891,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-master-leo-ur-fanmade-i.20168015.40831481967?extraParams=%7B%22display_model_id%22%3A356019059534%2C%22model_selection_logic%22%3A2%7D"
   },
   {
+    "series": "A",
     "name": "A121. Master Leo",
     "type": "Animal",
     "rarity": "Ultra, Promotion",
@@ -820,6 +902,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A125. Ninja Trained Siegfried",
     "type": "Animal",
     "rarity": "Ultra",
@@ -830,6 +913,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A125. Ninja Trained Siegfried",
     "type": "Animal",
     "rarity": "Ultra, Promotion",
@@ -840,6 +924,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A145. Zangetsu",
     "type": "Animal",
     "rarity": "Ultra",
@@ -850,6 +935,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A145. Zangetsu",
     "type": "Animal",
     "rarity": "Ultra, Special",
@@ -860,6 +946,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A159. Mecha Lion HGX",
     "type": "Animal",
     "rarity": "Ultra",
@@ -870,6 +957,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A159. Mecha Lion-Elite",
     "type": "Animal",
     "rarity": "Ultra, Promotion",
@@ -880,6 +968,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A160. Brutus",
     "type": "Animal",
     "rarity": "Ultra",
@@ -890,6 +979,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A160. Brutus",
     "type": "Animal",
     "rarity": "Ultra, Promotion",
@@ -900,6 +990,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A167. Master Apollo",
     "type": "Animal",
     "rarity": "Ultra",
@@ -910,6 +1001,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A167. Master Apollo",
     "type": "Animal",
     "rarity": "Ultra, Promotion",
@@ -920,6 +1012,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A176. Armageddon",
     "type": "Animal",
     "rarity": "Ultra",
@@ -930,6 +1023,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A176. Armageddon",
     "type": "Animal",
     "rarity": "Ultra, Special",
@@ -940,6 +1034,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A000. Blank Card",
     "type": "Animal",
     "rarity": "Common",
@@ -950,7 +1045,8 @@
     "shopee": ""
   },
   {
-    "name": "SP. Timezone Leo, the Lion Cub",
+    "series": "SP",
+    "name": "A007. Timezone Leo, the Lion Cub",
     "type": "Animal, Chibi",
     "rarity": "Common, Special",
     "language": "Eng",
@@ -960,7 +1056,8 @@
     "shopee": ""
   },
   {
-    "name": "SP. Leo, the Lion Cub",
+    "series": "SP",
+    "name": "A007. Leo, the Lion Cub",
     "type": "Animal, Chibi",
     "rarity": "Common, Special",
     "language": "Jp",
@@ -970,6 +1067,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A008. Lego Blue the Young Shark",
     "type": "Animal",
     "rarity": "Common, Special",
@@ -980,6 +1078,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A100. Axel",
     "type": "Animal",
     "rarity": "Common",
@@ -990,6 +1089,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A209. Howzer",
     "type": "Animal, Chibi",
     "rarity": "Common, Special",
@@ -1000,6 +1100,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A218. Shishiwaka",
     "type": "Animal",
     "rarity": "Common",
@@ -1010,7 +1111,8 @@
     "shopee": ""
   },
   {
-    "name": "SP. Batik Leo, the Lion Cub",
+    "series": "SP",
+    "name": "A007. Batik Leo, the Lion Cub",
     "type": "Animal, Chibi",
     "rarity": "Common, Special",
     "language": "Eng",
@@ -1020,7 +1122,8 @@
     "shopee": ""
   },
   {
-    "name": "SP. Indomaret Leo, the Lion Cub",
+    "series": "SP",
+    "name": "A007. Indomaret Leo, the Lion Cub",
     "type": "Animal, Chibi",
     "rarity": "Common, Special",
     "language": "Eng",
@@ -1030,7 +1133,8 @@
     "shopee": ""
   },
   {
-    "name": "SP. Starbucks Leo, the Lion Cub",
+    "series": "SP",
+    "name": "A007. Starbucks Leo, the Lion Cub",
     "type": "Animal, Chibi",
     "rarity": "Common, Special",
     "language": "Eng",
@@ -1040,7 +1144,8 @@
     "shopee": ""
   },
   {
-    "name": "SP. Kurama",
+    "series": "SP",
+    "name": "A009. Kurama",
     "type": "Animal, Chibi",
     "rarity": "Common, Special",
     "language": "Eng",
@@ -1050,7 +1155,8 @@
     "shopee": ""
   },
   {
-    "name": "SP. FIFA Leo, the Lion Cub",
+    "series": "SP",
+    "name": "A007. FIFA Leo, the Lion Cub",
     "type": "Animal, Chibi",
     "rarity": "Common, Special",
     "language": "Eng",
@@ -1060,7 +1166,8 @@
     "shopee": ""
   },
   {
-    "name": "SP. FIFA Apollo, the Ligger Cub",
+    "series": "SP",
+    "name": "A100. FIFA Apollo, the Ligger Cub",
     "type": "Animal, Chibi",
     "rarity": "Common, Special",
     "language": "Eng",
@@ -1070,7 +1177,8 @@
     "shopee": ""
   },
   {
-    "name": "SP. Kungfu Panda Boss Wolf",
+    "series": "SP",
+    "name": "A010. Kungfu Panda Boss Wolf",
     "type": "Animal",
     "rarity": "Common",
     "language": "Eng",
@@ -1080,7 +1188,8 @@
     "shopee": ""
   },
   {
-    "name": "SP. Kungfu Panda Po",
+    "series": "SP",
+    "name": "A011. Kungfu Panda Po",
     "type": "Animal",
     "rarity": "Common",
     "language": "Eng",
@@ -1090,7 +1199,8 @@
     "shopee": ""
   },
   {
-    "name": "SP. Kungfu Panda Tai Lung",
+    "series": "SP",
+    "name": "A016. Kungfu Panda Tai Lung",
     "type": "Animal",
     "rarity": "Common",
     "language": "Eng",
@@ -1100,7 +1210,8 @@
     "shopee": ""
   },
   {
-    "name": "SP. Kungfu Panda Tigress",
+    "series": "SP",
+    "name": "A030. Kungfu Panda Tigress",
     "type": "Animal",
     "rarity": "Common",
     "language": "Eng",
@@ -1110,7 +1221,8 @@
     "shopee": ""
   },
   {
-    "name": "SP. Kungfu Panda Mantis",
+    "series": "SP",
+    "name": "A060. Kungfu Panda Mantis",
     "type": "Animal",
     "rarity": "Common",
     "language": "Eng",
@@ -1120,7 +1232,8 @@
     "shopee": ""
   },
   {
-    "name": "SP. Leo, the Lion Cub",
+    "series": "SP",
+    "name": "A007. Leo, the Lion Cub",
     "type": "Animal, Chibi",
     "rarity": "Common",
     "language": "Eng",
@@ -1130,7 +1243,8 @@
     "shopee": ""
   },
   {
-    "name": "SP. Apollo, the Ligger Cub",
+    "series": "SP",
+    "name": "A100. Apollo, the Ligger Cub",
     "type": "Animal, Chibi",
     "rarity": "Common",
     "language": "Eng",
@@ -1140,6 +1254,7 @@
     "shopee": ""
   },
   {
+    "series": "M",
     "name": "M155. Alien Vault & M148. Alien Egg Gold",
     "type": "Miracle",
     "rarity": "Gold",
@@ -1150,6 +1265,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A121. Master Leo & A167. Master Apollo",
     "type": "Animal",
     "rarity": "Ultra",
@@ -1160,6 +1276,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A160. Brutus & A111. Master Blue",
     "type": "Animal",
     "rarity": "Ultra",
@@ -1170,6 +1287,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A108. Galleon & A080. Scorch",
     "type": "Animal",
     "rarity": "Ultra",
@@ -1180,6 +1298,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A110. Death Scorch & A135. Kaiser Coral",
     "type": "Animal",
     "rarity": "Ultra",
@@ -1190,6 +1309,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A159. Mecha Lion & A096 Atlas",
     "type": "Animal",
     "rarity": "Ultra",
@@ -1200,6 +1320,7 @@
     "shopee": ""
   },
   {
+    "series": "A",
     "name": "A166. Emperor Vertus & A176. Armageddon Vertus",
     "type": "Animal",
     "rarity": "Ultra",
