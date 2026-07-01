@@ -601,23 +601,30 @@ fetch("assets/data/cards.json")
 })
 .then(function(cards){
 
+    cards.sort(function(a,b){
+
+        const order = {
+            A:0,
+            S:1,
+            M:2,
+            SP:3
+        };
+
+        if(order[a.series] !== order[b.series]){
+            return order[a.series] - order[b.series];
+        }
+
+        return a.name.localeCompare(b.name);
+
+    });
+
     window.cardsData = cards;
     window.filteredCards = cards;
 
-cards.sort(function(a,b){
+    renderCards(cards);
 
-    const order = {
-        A: 0,
-        S: 1,
-        M: 2,
-        SP: 3
-    };
-
-    if(order[a.series] !== order[b.series]){
-        return order[a.series] - order[b.series];
-    }
-
-    return a.name.localeCompare(b.name);
+    document.getElementById("searchInput")
+    .addEventListener("input", applyFilters);
 
 });
 
