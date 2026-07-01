@@ -606,26 +606,31 @@ fetch("assets/data/cards.json")
 
 cards.sort(function(a,b){
 
+    function getPrefix(name){
+
+        if(name.startsWith("SP")){
+            return "SP";
+        }
+
+        return name.charAt(0);
+
+    }
+
     const order = {
         A:0,
         S:1,
-        M:2
+        M:2,
+        SP:3
     };
 
-    const typeA = a.name.charAt(0);
-    const typeB = b.name.charAt(0);
+    const typeA = getPrefix(a.name);
+    const typeB = getPrefix(b.name);
 
     if(typeA !== typeB){
         return order[typeA] - order[typeB];
     }
 
     return a.name.localeCompare(b.name);
-});
-    
-    renderCards(cards);
-
-document.getElementById("searchInput")
-.addEventListener("input", applyFilters);
 
 });
 
