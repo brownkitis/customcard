@@ -604,19 +604,7 @@ fetch("assets/data/cards.json")
     window.cardsData = cards;
     window.filteredCards = cards;
 
-cards.sort(function(a, b){
-
-    function getPrefix(name){
-
-        const code = name.split(".")[0];
-
-        if(code.startsWith("SP")) return "SP";
-        if(code.startsWith("A")) return "A";
-        if(code.startsWith("S")) return "S";
-        if(code.startsWith("M")) return "M";
-
-        return "";
-    }
+cards.sort(function(a,b){
 
     const order = {
         A: 0,
@@ -625,11 +613,8 @@ cards.sort(function(a, b){
         SP: 3
     };
 
-    const prefixA = getPrefix(a.name);
-    const prefixB = getPrefix(b.name);
-
-    if(prefixA !== prefixB){
-        return order[prefixA] - order[prefixB];
+    if(order[a.series] !== order[b.series]){
+        return order[a.series] - order[b.series];
     }
 
     return a.name.localeCompare(b.name);
