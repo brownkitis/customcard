@@ -309,14 +309,14 @@
   },
   {
     "series": "A",
-    "name": "A110. Death Scorch",
+    "name": "A153. Celeo, leo Jr.",
     "type": "Animal",
-    "rarity": "Special",
+    "rarity": "Common, Special",
     "language": "Jp",
     "compatibility": "AK",
-    "stock": "Available",
-    "image": "a110-death-scorch-jp_frame.webp",
-    "shopee": "https://shopee.co.id/animal-kaiser-ur-special-frame-fanmade-i.20168015.55161745010?extraParams=%7B%22display_model_id%22%3A396019074282%2C%22model_selection_logic%22%3A2%7D"
+    "stock": "Coming Soon",
+    "image": "a153-celeo-jp_frame.webp",
+    "shopee": ""
   },
   {
     "series": "A",
