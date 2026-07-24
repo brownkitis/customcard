@@ -1321,6 +1321,39 @@
   },
   {
     "series": "A",
+    "name": "A167. Master Apollo",
+    "type": "Animal",
+    "rarity": "Ultra, Special",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a167-master-leo-jp_frame.webp",
+    "shopee": ""
+  },
+  {
+    "series": "A",
+    "name": "A080. Scorch",
+    "type": "Animal, Chibi",
+    "rarity": "Ultra, Special",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a080-scorch-jp_lim.webp",
+    "shopee": ""
+  },
+  {
+    "series": "A",
+    "name": "A007. Special Ops Leo",
+    "type": "Animal",
+    "rarity": "Special",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a007-sol-gak_promo.webp",
+    "shopee": ""
+  },
+  {
+    "series": "A",
     "name": "A166. Emperor Vertus & A176. Armageddon Vertus",
     "type": "Animal",
     "rarity": "Ultra",
