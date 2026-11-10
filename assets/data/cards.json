@@ -1354,6 +1354,83 @@
   },
   {
     "series": "A",
+    "name": "A007. Special Ops Leo",
+    "type": "Animal",
+    "rarity": "Special",
+    "language": "Jp",
+    "compatibility": "AK+",
+    "stock": "Coming Soon",
+    "image": "a007-sol-red.webp",
+    "shopee": ""
+  },
+  {
+    "series": "A",
+    "name": "A100. Special Ops Apollo",
+    "type": "Animal",
+    "rarity": "Special",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a100-soa-blue.webp",
+    "shopee": ""
+  },
+  {
+    "series": "A",
+    "name": "A080. Scorch",
+    "type": "Animal",
+    "rarity": "Ultra, Special",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a080-scorch-jp_frame.webp",
+    "shopee": ""
+  },
+  {
+    "series": "A",
+    "name": "A111. Master Blue",
+    "type": "Animal",
+    "rarity": "Ultra, Special",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a111-masterblue-jp_frame.webp",
+    "shopee": ""
+  },
+  {
+    "series": "A",
+    "name": "A135. Kaiser Coral",
+    "type": "Animal",
+    "rarity": "Ultra, Special",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a135-kaisercoral-jp_frame.webp",
+    "shopee": ""
+  },
+  {
+    "series": "A",
+    "name": "A157. Regulus, Scorch Jr.",
+    "type": "Animal",
+    "rarity": "Ultra, Special",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a157-regulus-jp_frame.webp",
+    "shopee": ""
+  },
+  {
+    "series": "A",
+    "name": "A218. Shishiwaka",
+    "type": "Animal",
+    "rarity": "Ultra, Special",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a218-shishiwaka-jp_frame.webp",
+    "shopee": ""
+  },
+  {
+    "series": "A",
     "name": "A166. Emperor Vertus & A176. Armageddon Vertus",
     "type": "Animal",
     "rarity": "Ultra",
