@@ -1442,6 +1442,17 @@
   },
   {
     "series": "A",
+    "name": "A159. Mecha Lion HGX",
+    "type": "Animal",
+    "rarity": "Common, Promotion",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a159-mechalion-jp_promo.webp",
+    "shopee": ""
+  },
+  {
+    "series": "A",
     "name": "A166. Emperor Vertus & A176. Armageddon Vertus",
     "type": "Animal",
     "rarity": "Ultra",
