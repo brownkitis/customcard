@@ -55,7 +55,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-chibi-mascot-strong-card-fandame-i.20168015.48355684745?extraParams=%7B%22display_model_id%22%3A310597903498%2C%22model_selection_logic%22%3A2%7D"
   },
   {
-    "series": "A",
+    "series": "M",
     "name": "M045. Approaching Sun",
     "type": "Miracle, Chibi",
     "rarity": "Common",
@@ -66,7 +66,7 @@
     "shopee": "https://shopee.co.id/animal-kaiser-ak-chibi-mascot-miracle-card-fandame-i.20168015.48308999987?extraParams=%7B%22display_model_id%22%3A310797617193%2C%22model_selection_logic%22%3A2%7D"
   },
   {
-    "series": "A",
+    "series": "M",
     "name": "M046. Black Hole",
     "type": "Miracle, Chibi",
     "rarity": "Common",
@@ -75,6 +75,17 @@
     "stock": "Available",
     "image": "m046-black-hole.webp",
     "shopee": "https://shopee.co.id/animal-kaiser-ak-chibi-mascot-miracle-card-fandame-i.20168015.48308999987?extraParams=%7B%22display_model_id%22%3A310797617193%2C%22model_selection_logic%22%3A2%7D"
+  },
+  {
+    "series": "M",
+    "name": "M001. Crashing Moon",
+    "type": "Miracle, Chibi",
+    "rarity": "Common",
+    "language": "Eng",
+    "compatibility": "AK, AK+",
+    "stock": "Available",
+    "image": "m001-crashingmoon.webp",
+    "shopee": ""
   },
   {
     "series": "A",
