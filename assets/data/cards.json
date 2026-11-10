@@ -1431,6 +1431,17 @@
   },
   {
     "series": "A",
+    "name": "A147. Mecha Shark HG",
+    "type": "Animal",
+    "rarity": "Ultra, Special",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a147-mechasharkhg-jp_frame.webp",
+    "shopee": ""
+  },
+  {
+    "series": "A",
     "name": "A166. Emperor Vertus & A176. Armageddon Vertus",
     "type": "Animal",
     "rarity": "Ultra",
