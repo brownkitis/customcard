@@ -1189,17 +1189,6 @@
   },
   {
     "series": "SP",
-    "name": "A010. Kungfu Panda Boss Wolf",
-    "type": "Animal",
-    "rarity": "Common",
-    "language": "Eng",
-    "compatibility": "AK, AK+",
-    "stock": "Coming Soon",
-    "image": "kp010-gray-wolf.webp",
-    "shopee": ""
-  },
-  {
-    "series": "SP",
     "name": "A011. Kungfu Panda Po",
     "type": "Animal",
     "rarity": "Common",
@@ -1229,17 +1218,6 @@
     "compatibility": "AK, AK+",
     "stock": "Coming Soon",
     "image": "kp030-bengal.webp",
-    "shopee": ""
-  },
-  {
-    "series": "SP",
-    "name": "A060. Kungfu Panda Mantis",
-    "type": "Animal",
-    "rarity": "Common",
-    "language": "Eng",
-    "compatibility": "AK, AK+",
-    "stock": "Coming Soon",
-    "image": "kp060-praying-mantis.webp",
     "shopee": ""
   },
   {
