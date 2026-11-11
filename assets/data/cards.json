@@ -1442,6 +1442,39 @@
   },
   {
     "series": "A",
+    "name": "A082. Schwarz",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Promotion",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a082-schwarz-jp_promo.webp",
+    "shopee": ""
+  },
+  {
+    "series": "SP",
+    "name": "A080. Scorch",
+    "type": "Animal, Chibi",
+    "rarity": "Common, Special",
+    "language": "Jp",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a080-scorch-jp_lim.webp",
+    "shopee": ""
+  },
+  {
+    "series": "A",
+    "name": "A189. Master Jumbo",
+    "type": "Animal, Chibi",
+    "rarity": "Common",
+    "language": "Eng",
+    "compatibility": "AK",
+    "stock": "Coming Soon",
+    "image": "a189-masterjumbo.webp",
+    "shopee": ""
+  },
+  {
+    "series": "A",
     "name": "A166. Emperor Vertus & A176. Armageddon Vertus",
     "type": "Animal",
     "rarity": "Ultra",
